@@ -22,7 +22,7 @@ public class PuzzleJavaTest {
         // Shuffle the array and print the name of each person. Have the method also
         //  return an array with names that are longer than 5 characters.
         ArrayList<String> nameList = new ArrayList<String>(Arrays.asList("Nancy", "Jinichi", "Fujibayashi", "Momochi", "Ishikawa"));
-        ArrayList<Integer> bigNames = uzz.Puzzle02(nameList);
+        ArrayList<String> bigNames = uzz.Puzzle02(nameList);
         System.out.println(bigNames);
 
 
@@ -32,7 +32,7 @@ public class PuzzleJavaTest {
         // Have it also display the first letter of the array. 
         // If the first letter in the array is a vowel, have it display a message.
         ArrayList<Character> letters26 = new ArrayList<Character>(Arrays.asList('a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', "k", 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z'));
-        ArrayList<Integer> sorted = uzz.Puzzle03(nameList);
+        ArrayList<Character> sorted = uzz.Puzzle03(nameList);
         System.out.println(sorted);
 
 
@@ -53,7 +53,7 @@ public class PuzzleJavaTest {
 
         // PUZZLE 06
         // ● Create a random string that is 5 characters long.
-        ArrayList<String> randomString = uzz.Puzzle06();
+        String randomString = uzz.Puzzle06();
         System.out.println(randomString);
 
 
