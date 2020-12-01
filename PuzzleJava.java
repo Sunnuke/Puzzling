@@ -112,10 +112,10 @@ public class PuzzleJava {
         // PUZZLE 06
         //  Create a random string that is 5 characters long.
         public String PuzzeleVI() {
-            String abc = "abcdefghijklmnopqrstuvwxyz";
+            String abc = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890";
             String str = new String();
             for (int i = 0; i < 5; i++) {
-                int x = new Random().nextInt(26);
+                int x = new Random().nextInt(abc.length());
                 String letter = String.valueOf(abc.charAt(x));
                 str = str + letter;
             }
@@ -126,12 +126,12 @@ public class PuzzleJava {
         // PUZZLE 07
         //  Generate an array with 10 random strings that are each 5 characters long
         public ArrayList<String> PuzzeleVII() {
-            String abc = "abcdefghijklmnopqrstuvwxyz";
+            String abc = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890";
             ArrayList<String> strArr = new ArrayList<String>();
             for (int j = 0; j < 10; j++) {
                 String str = new String();
                 for (int i = 0; i < 5; i++) {
-                    int x = new Random().nextInt(26);
+                    int x = new Random().nextInt(abc.length());
                     String letter = String.valueOf(abc.charAt(x));
                     str = str + letter;
                 }
