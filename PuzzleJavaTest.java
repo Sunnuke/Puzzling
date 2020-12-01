@@ -47,7 +47,7 @@ public class PuzzleJavaTest {
         // have it be sorted (showing the smallest number in the beginning). 
         // Display all the numbers in the array. Next, display the minimum value in the array 
         // as well as the maximum value.
-        ArrayList<Integer> random10of55To100 = uzz.Puzzele05();
+        ArrayList<Object> random10of55To100 = uzz.Puzzele05();
         System.out.println(random10of55To100);
 
 
